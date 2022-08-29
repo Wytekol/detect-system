@@ -15,7 +15,7 @@
 
 System GetOS(void) {
     #if defined(_WIN32)
-          return WINDOWS;
+          return _WINDOWS;
     #elif defined(__ANDROID__)
           return _ANDROID;
     #elif defined(__FreeBSD__)
