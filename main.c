@@ -14,6 +14,7 @@ int main(void) {
         printf("You're on FreeBSD!");
     } else {
         printf("Operating system not found.");
+        return -1;
     }
     return 0;
 }
