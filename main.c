@@ -4,17 +4,6 @@
 
 int main(void) {
     System os = GetOS();
-    if (os == WINDOWS) {
-        printf("You're on Windows!");
-    } else if (os == LINUX) {
-        printf("You're on Linux!");
-    } else if (os == MACOS) {
-        printf("You're on MacOS!");
-    } else if (os == FREEBSD) {
-        printf("You're on FreeBSD!");
-    } else {
-        printf("Operating system not found.");
-        return -1;
-    }
+    printf("You're on %s!", os);
     return 0;
 }
